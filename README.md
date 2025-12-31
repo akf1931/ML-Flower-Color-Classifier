@@ -6,27 +6,27 @@ Train a simple image classifier to assign petal color to pictures of flowers usi
 
 ## Repository Structure
 
-flower-color-classifier/
-│
-├── README.md
-├── requirements.txt
-├── data/
-│   └── flowers-102/           # only created by running the notebook files after cloning the repository
-│
-├── notebooks/
-│   ├── 01_exploration.ipynb   # EDA + color label generation
-│   ├── 02_training.ipynb      # CNN transfer learning from ResNet18
-│   └── 03_evaluation.ipynb    # confusion matrix + example predictions vs. labels
-│
-├── src/
-│   ├── data/
-│   │   └── dataset.py         # Python classes held outside the notebooks
-│   └── models/
-│       └── classifier.py
-│
-└── results/
-    ├── training_diagnostics_static.png
-    └── best_model_weights_static.pt
+    flower-color-classifier/
+
+        ├── README.md
+        ├── requirements.txt
+        ├── data/
+        │   └── flowers-102/           # only created by running the notebook files after cloning the repository
+        │
+        ├── notebooks/
+        │   ├── 01_exploration.ipynb   # EDA + color label generation
+        │   ├── 02_training.ipynb      # CNN transfer learning from ResNet18
+        │   └── 03_evaluation.ipynb    # confusion matrix + example predictions vs. labels
+        │
+        ├── src/
+        │   ├── data/
+        │   │   └── dataset.py         # Python classes held outside the notebooks
+        │   └── models/
+        │       └── classifier.py
+        │
+        └── results/
+            ├── training_diagnostics_static.png
+            └── best_model_weights_static.pt    # Included as attachment in release only
 
 ## Background
 
